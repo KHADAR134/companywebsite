@@ -67,7 +67,7 @@ body{
     margin: 10px 10px 10px 10px;
 }
 .homecontent h1{
-    text-align: left;    
+    text-align: center;    
 }
 .homecontent img{
     float: right;
@@ -86,14 +86,14 @@ body{
 }
 
 .productcontent h1{
-    text-align: left;    
+    text-align: center;
 }
 
 .productitems{
     display: block;
 }
 
-.productitem{
+.productitem {
     display: inline-block;
     width: 35%;
     height: 100px;
@@ -104,13 +104,98 @@ body{
     width: 300px;
     height: 300px;
     display: block;
+
 }
 .productitem .itemimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.productitem .itemname {
+    margin-top: 0.5cm;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.productitem .itemprice {
+    display: block;
+    margin-top: 0cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.peoplecontent {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.peoplelists {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5in;
+}
+.peoplelist {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 2cm;
+}
+.peoplelist .peopleimage {
+    display: block;
+    margin-top: 2cm;
+    margin-left: 1.5cm;
+    margin-right: 0.5cm;
     width: 100px;
     margin-bottom: 5px;
+}
+
+.peoplelist .peoplename {
+    margin-top: 0.5cm;
+    display: block;
+}
+.peoplelist .peoplepost {
+    display: block;
+    margin-top: -0.5cm;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.content1 {
+    display: block;
+    width: 100%;
+    background-color: #050314;
+    min-height: 500px;
+    margin:  0px 0px 0px 0px;
+    border-width: 1px;
+    border-style: solid;
+}
+.contactcenter {
+    text-align: center;
 }
 
 .footer{
